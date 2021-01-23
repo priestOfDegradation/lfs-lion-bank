@@ -7,142 +7,215 @@
 <body>
   <div class="wrapper">
     <div class="container">
-      <header>
-        <div class="logo"></div>
-        <nav>
-          <a href="#">Главная</a>
-          <a href="#">Услуги</a>
-          <a href="#">Отызвы</a>
+
+      <!-- HEADER -->
+      <header class="header">
+        <a class="logo">
+          <img src="" alt="" class="logo__pic">
+        </a>
+        <nav class="nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item">
+              <a href="#" class="nav_menu__item-title">Главная</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav_menu__item-title">Услуги</a>
+            </li>
+            <li class="nav-menu__item">
+              <a href="#" class="nav_menu__item-title">Отызвы</a>
+            </li>
+          </ul>
         </nav>
         <div class="info">
-          <div class="phone-num">8 800 700-30-30</div>
-          <div class="sched">
-            График работы
-            <div class="drop-down">
-              <span>пн-вс: 09:00 - 20:00</span>
-              <span>Обед: 14:00 - 14:30</span>
+          <a href="tel:+78007003030" class="info__phone-num">8 800 700-30-30</a>
+          <div class="info__schedule">
+            <div class="">
+              График работы
+            </div>
+            <div class="info__schedule--drop-down">
+              <div class="info__schedule--work">пн-вс: 09:00 - 20:00</div>
+              <div class="info__schedule--lunch">Обед: 14:00 - 14:30</div>
             </div>
           </div>
         </div>
       </header>
       
-      
+
+
+      <!-- MAIN CONTENT -->
       <main>
-        <section>
-          <h1>
-            Не отказывай себе в желании
-            быть первым
-          </h1>
-          <div>
-            Банк с львинным характером
-          </div>
-          <a class="readmore">Подробнее</a>
+        <section class="top-section">
+          <h1 class="top-section__slogan">Не отказывай себе в желании быть первым</h1>
+          <div class="top-section__postscript">Банк с львиным характером</div>
+          <a href="" class="top-section__readmore readmore">Подробнее</a>
         </section>
       
+        <!-- Лучше предложения -->
         <section class="best-offers">
           <h2>Лучшие предложения банка</h2>
-          <ul class="card-list">
-            <li>
+          <ul class="cards-list">
+            <li class="cards-list__item">
               <div class="card">
-                <div class="title">Карта "Базовая"</div>
-                <div></div>
-                <a href="" class="readmore">Подробнее</a>
+                <div class="card__bachground">
+                  <img src="" alt="">
+                </div>
+                <div class="card__icon">
+                  <img src="" alt="">
+                </div>
+                <div class="card__title">Карта "Базовая"</div>
+                <a href="" class="card__info">
+                  <div class="card__price">
+                    <div class="card__price--value">60 р</div>
+                    <div class="card__price--caption">Обсуживание карты</div>
+                  </div>
+                  <div class="card__cashback">
+                    <div class="card__cashback--value">До 6%</div>
+                    <div class="card__cashback--caption">Кэшбек за любимые покупки</div>
+                  </div>
+                </a>
+                <a class="card__readmore readmore">Подробнее</a>
               </div>
             </li>
-            <li>
+            <li class="cards-list__item">
               <div class="card">
-                <div class="title">Карта "Оптима"</div>
-                <div></div>
-                <a href="" class="readmore">Подробнее</a>
+                <div class="card__bachground">
+                  <img src="" alt="">
+                </div>
+                <div class="card__icon">
+                  <img src="" alt="">
+                </div>
+                <div class="card__title">Карта "Оптима"</div>
+                <a href="" class="card__info">
+                  <div class="card__price">
+                    <div class="card__price--value">60 р</div>
+                    <div class="card__price--caption">Обсуживание карты</div>
+                  </div>
+                  <div class="card__cashback">
+                    <div class="card__cashback--value">До 6%</div>
+                    <div class="card__cashback--caption">Кэшбек за любимые покупки</div>
+                  </div>
+                </a>
+                <a class="card__readmore readmore">Подробнее</a>
               </div>
             </li>
-            <li>
+            <li class="cards-list__item">
               <div class="card">
-                <div class="title">Карта "Платинум"</div>
-                <div></div>
-                <a href="" class="readmore">Подробнее</a>
+                <div class="card__bachground">
+                  <img src="" alt="">
+                </div>
+                <div class="card__icon">
+                  <img src="" alt="">
+                </div>
+                <div class="card__title">Карта "Платинум"</div>
+                <a href="" class="card__info">
+                  <div class="card__price">
+                    <div class="card__price--value">60 р</div>
+                    <div class="card__price--caption">Обсуживание карты</div>
+                  </div>
+                  <div class="card__cashback">
+                    <div class="card__cashback--value">До 6%</div>
+                    <div class="card__cashback--caption">Кэшбек за любимые покупки</div>
+                  </div>
+                </a>
+                <a class="card__readmore readmore">Подробнее</a>
               </div>
             </li>
           </ul>
         </section>
       
-        <section class="news-n-shares">
+        <!-- Новости -->
+        <section class="news">
           <h2>Новости и акции</h2>
       
           <ul class="news-list">
-            <li>
-              <div class="news-list__el">
-                <div class="date">Декабрь 2019</div>
-                <div class="title">Удобное мобильное приложение</div>
-                <div class="disc">
-                  Хороший банк, хорошие условия.
-                </div>
+            <li class="news-list__item">
+              <div class="new-card">
+                <img src="" alt="" class="new-card__background">
+                <div class="new-card__date">Декабрь 2019</div>
+                <div class="new-card__title">Удобное мобильное приложение</div>
+                <div class="new-card__description">Хороший банк, хорошие условия.</div>
               </div>
             </li>
-            <li>
-              <div class="news-list__el">
-                <div class="date">Декабрь 2019</div>
-                <div class="title">Копите на поездку? Откройте счёт!</div>
-                <div class="disc">
-                  Хороший банк, хорошие условия. Откладывайте деньги! Наш банк самый лучший банк в мире!
-                </div>
+            <li class="news-list__item">
+              <div class="new-card">
+                <img src="" alt="" class="new-card__background">
+                <div class="new-card__date">Декабрь 2019</div>
+                <div class="new-card__title">Удобное мобильное приложение</div>
+                <div class="new-card__description">Хороший банк, хорошие условия.</div>
               </div>
             </li>
           </ul>
         </section>
       
-        <div class="page-navigation">
-          <span class="curr-page">Страница 1 из 7</span>
+        <!-- Пагинация -->
+        <nav class="page-navigation">
+          <div class="page-navigation__display">
+            Страница 1 из 7
+          </div>
           <ul class="pagination">
-            <li><a href="">1</a></li>
-            <li><a href="">2</a></li>
-            <li><a href="">3</a></li>
-            <li><a href="">4</a></li>
-            <li><a href="">5</a></li>
-            <li><a href="">6</a></li>
-            <li><a href="">7</a></li>
+            <li class="page-item"><a href="" class="page-link">1</a></li>
+            <li class="page-item"><a href="" class="page-link">2</a></li>
+            <li class="page-item"><a href="" class="page-link">3</a></li>
+            <li class="page-item"><a href="" class="page-link">4</a></li>
+            <li class="page-item"><a href="" class="page-link">5</a></li>
+            <li class="page-item"><a href="" class="page-link">6</a></li>
+            <li class="page-item"><a href="" class="page-link">7</a></li>
           </ul>
-        </div>
+        </nav>
       
-        <section class="about">
-          <img src="" alt="">
+        <!-- О компании -->
+        <section class="about-section">
+          <img src="" alt="" class="about-section__chest-img">
           <div class="about-card">
-            <h2>О банке</h2>
-            <p>
-              Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. 
-            </p>
+            <article class="about">
+              <h2 class="about__header">О нас</h2>
+              <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+              <a href="" class="about__readmore readmore">Подробнее</a>
+            </article>
           </div>
         </section>
       </main>
       
+
       
+      <!-- FOOTER -->
       <footer>
-        <div class="logo"></div>
-        <nav>
-          <a href="#">Главная</a>
-          <a href="#">Услуги</a>
-          <a href="#">Отызвы</a>
-        </nav>
-        <div class="soc">
-          <ul>
-            <li id="telegramm">
-              <a href="#"></a>
+        <a class="logo">
+          <img src="" alt="" class="logo__pic">
+        </a>
+        <nav class="nav-menu">
+          <ul class="nav-menu__list">
+            <li class="nav-menu__item">
+              <a href="#" class="nav_menu__item-title">Главная</a>
             </li>
-            <li id="vk">
-              <a href="#"></a>
+            <li class="nav-menu__item">
+              <a href="#" class="nav_menu__item-title">Услуги</a>
             </li>
-            <li id="facebook">
-              <a href="#"></a>
-            </li>
-            <li id="instagramm">
-              <a href="#"></a>
+            <li class="nav-menu__item">
+              <a href="#" class="nav_menu__item-title">Отызвы</a>
             </li>
           </ul>
-        </div>
-        <div class="info">
-          <div class="phone-num">8 800 700-30-30</div>
-          <div class="sched">График работы</div>
-        </div>
+        </nav>
+        <address class="social-medias">
+          <ul class="soc-list">
+            <li class="soc-list__item">
+              <a href="" class="soc-list__link"><img src="" alt="" class="soc-list__icon"></a>
+            </li>
+            <li class="soc-list__item">
+              <a href="" class="soc-list__link"><img src="" alt="" class="soc-list__icon"></a>
+            </li>
+            <li class="soc-list__item">
+              <a href="" class="soc-list__link"><img src="" alt="" class="soc-list__icon"></a>
+            </li>
+            <li class="soc-list__item">
+              <a href="" class="soc-list__link"><img src="" alt="" class="soc-list__icon"></a>
+            </li>
+          </ul>
+        </address>
+        <address class="contacts">
+          <div class="contacts__caption">Бесплатный звонок по России</div>
+          <a href="tel:+78007003030" class="contacts__phone-num">8 800 700-30-30</a>
+        </address>
       </footer>
     </div class="container">
   </div>
