@@ -11,6 +11,7 @@ html{
 }
 body{
   background-color: #29282D;
+  margin: 0;
 }
 a{
   color: inherit;
@@ -50,24 +51,24 @@ address{
   text-transform: uppercase;
 }
 
-.btn.btn--color--black{
+.btn--color--black{
   background-color: #29282D;
 }
-.btn.btn--color--black:hover{
+.btn--color--black:hover{
   background-color: #DFB56D;
 }
 
-.btn.btn--color--gray{
+.btn--color--gray{
   background-color: #8E8E8E;
 }
-.btn.btn--color--gray:hover{
+.btn--color--gray:hover{
   background-color: #2B2B2B;
 }
 
-.btn.btn--color--ginger{
+.btn--color--ginger{
   background-color: #DFB56D;
 }
-.btn.btn--color--ginger:hover{
+.btn--color--ginger:hover{
 background-color: #D3A557;
 }
 
@@ -111,12 +112,12 @@ background-color: #D3A557;
   text-align: center;
   line-height: 32px;
 }
-.pagination__link:hover, .pagination__item.pagination__item--active .pagination__link{
+.pagination__link:hover, .pagination__item--active .pagination__link{
   background-color: #353439;
 }
 
 /* Header */
-/* ----------------------------------------------------------------------------------------- */
+/* ============================================================================================================ */
 
 .header{
   position: relative;
@@ -154,6 +155,11 @@ background-color: #D3A557;
   position: absolute;
   top: 19px;
   right: 0;
+  text-align: right;
+}
+.info__caption{
+  font-size: 11px;
+  color: #9A9A9A;
 }
 .info__phone{
   font-size: 26px;
@@ -168,7 +174,6 @@ background-color: #D3A557;
 }
 .info__schedule-text{
   text-decoration: underline;
-  text-align: right;
 }
 .info__schedule-text:hover{
   color: #D3A557;
@@ -190,7 +195,12 @@ background-color: #D3A557;
 
 
 /* Home page */
-/* ----------------------------------------------------------------------------------------- */
+/* ============================================================================================================ */
+
+.home-page-wrapper{
+  background: url('img/background/lion-header-1.png') center top no-repeat, url('img/background/bottom-pic-1.png') right bottom 307px no-repeat;
+}
+
 
 .hero{
   margin-top: 148px;
@@ -222,7 +232,6 @@ background-color: #D3A557;
 .card{
   display: inline-block;
   position: relative;
-  width: 362px;
   background-color: white;
   color: black;
   border-radius: 5px;
@@ -243,13 +252,13 @@ background-color: #D3A557;
   -o-border-radius: 50%;
   z-index: 0;
 }
-.card.card--color--gray::before{
+.card--color--gray::before{
   background-color: #A7A7A7;
 }
-.card.card--color--blue::before{
+.card--color--blue::before{
   background-color: #596483;
 }
-.card.card--color--ginger::before{
+.card--color--ginger::before{
   background-color: #988657;
 }
 .card__header{
@@ -320,14 +329,14 @@ background-color: #D3A557;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: .4;
+  opacity: .6;
 }
 .new__content{
   position: absolute;
-  min-height: 142px;
+  min-height: 156px;
   bottom: 0;
   left: 0;
-  padding: 45px 30px;
+  padding: 15px 27px;
 }
 .new__date{
   font-size: 14px;
@@ -341,17 +350,16 @@ background-color: #D3A557;
 
 
 .about{
-  position: relative;
-  margin-bottom: 194px;
+  margin-bottom: 54px;
   min-height: 505px;
 }
 .about__img{
-  position: absolute;
+  display: block;
 }
 .about__block{
   position: relative;
-  left: 354px;
-  top: 97px;
+  margin-top: -408px;
+  margin-left: 354px;
   width: 785px;
   background-color: #202123;
   padding: 70px 81px;
@@ -373,17 +381,44 @@ background-color: #D3A557;
 
 
 /* Footer */
-/* ----------------------------------------------------------------------------------------- */
+/* ============================================================================================================ */
 
 .footer{
   position: relative;
   height: 146px;
+}
+
+.home-footer__wrapper{
+  padding-top: 29px;
   border-top: 1px solid #3E3D42;
-  padding-top: 1px;
 }
 
 .social{
-  display: none;
+  position: absolute;
+  left: 703px;
+  top: 22px;
+}
+.social__item{
+  display: inline-block;
+  margin-right: 6px;
+  vertical-align: top;
+}
+.social__link{
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-color: #454545;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  color: #29282D;
+  font-size: 24px;
+}
+.social__link--facebook{
+  font-size: 28px;
+}
+.social__link:hover{
+  background-color: #868686;
 }
 
-/* ----------------------------------------------------------------------------------------- */
+/* ============================================================================================================ */
