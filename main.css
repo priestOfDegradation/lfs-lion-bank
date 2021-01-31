@@ -74,12 +74,16 @@ background-color: #D3A557;
 }
 
 
-.section{
-  margin-bottom: 127px;
-}
-.section__title{
+.title{
   font-size: 36px;
   font-weight: 700;
+}
+
+
+.section{
+  margin-bottom: 125px;
+}
+.section__title{
   margin-bottom: 51px;
 }
 
@@ -92,13 +96,14 @@ background-color: #D3A557;
 }
 .pagination__display{
   display: inline-block;
-  margin-right: 22px;
+  margin-right: 20px;
 }
 .pagination__list{
   display: inline-block;
 }
 .pagination__item{
   display: inline-block;
+  margin-right: -2px;
   font-weight: bold;
 }
 .pagination__link{
@@ -129,20 +134,20 @@ background-color: #D3A557;
 .logo{
   display: block;
   position: absolute;
-  top: 25px;
+  top: 33px;
   left: 0;
 }
 
 
 .navbar{
   position: absolute;
-  top: 33px;
+  top: 42px;
   left: 256px;
-  font-size: 15px;
+  font-size: 14px;
 }
 .navbar__item{
   display: inline;
-  margin-right: 45px;
+  margin-right: 51px;
 }
 .navbar__item:last-child{
   margin-right: 0;
@@ -154,7 +159,7 @@ background-color: #D3A557;
 
 .info{
   position: absolute;
-  top: 19px;
+  top: 26px;
   right: 0;
   text-align: right;
 }
@@ -167,8 +172,8 @@ background-color: #D3A557;
 }
 .info__schedule{
   font-size: 13px;
-  padding-right: 2px;
-  margin-top: -8px;
+  padding-right: 3px;
+  margin-top: -7px;
 }
 .info__schedule:hover .info__schedule-drop-down{
   display: inline-block;
@@ -199,13 +204,13 @@ background-color: #D3A557;
 /* ============================================================================================================ */
 
 .home-page-wrapper{
-  background: url('img/background/lion-header-1.png') center top no-repeat, url('img/background/bottom-pic-1.png') right bottom 307px no-repeat;
+  background: url('img/background/lion-header-1.png') center top no-repeat, url('img/background/bottom-pic-1.png') right -8px bottom 182px no-repeat;
 }
 
 
 .hero{
-  margin-top: 148px;
-  margin-bottom: 186px;
+  margin-top: 157px;
+  margin-bottom: 183px;
 }
 .hero__content{
   width: 505px;
@@ -224,7 +229,7 @@ background-color: #D3A557;
 
 .cards__item{
   vertical-align: top;
-  margin-right: 23px;
+  margin-right: 24px;
 }
 .cards__item:last-child{
   margin-right: 0;
@@ -263,8 +268,8 @@ background-color: #D3A557;
   background-color: #988657;
 }
 .card__header{
-  padding: 38px 0;
-  margin-bottom: 3px;
+  padding: 40px 0;
+  margin-bottom: 2px;
 }
 .card__icon-img{
   display: block;
@@ -279,7 +284,7 @@ background-color: #D3A557;
 .card__title{
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 16px;
+  margin-bottom: 15px;
 }
 .card__info{
   position: relative;
@@ -313,7 +318,7 @@ background-color: #D3A557;
 }
 .news__item{
   vertical-align: top;
-  margin-right: 22px;
+  margin-right: 19px;
 }
 .news__item:last-child{
   margin-right: 0;
@@ -334,23 +339,25 @@ background-color: #D3A557;
 }
 .new__content{
   position: absolute;
+  width: 100%;
   min-height: 156px;
   bottom: 0;
   left: 0;
-  padding: 15px 27px;
+  padding: 15px 30px;
 }
 .new__date{
   font-size: 14px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 .new__title{
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
 }
 
 
 .about{
+  margin-top: 145px;
   margin-bottom: 54px;
   min-height: 505px;
 }
@@ -363,7 +370,7 @@ background-color: #D3A557;
   margin-left: 354px;
   width: 785px;
   background-color: #202123;
-  padding: 70px 81px;
+  padding: 69px 81px;
   padding-right: 161px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -372,11 +379,10 @@ background-color: #D3A557;
   -o-border-radius: 5px;
 }
 .about__title{
-  font-size: 36px;
   margin-bottom: 37px;
 }
 .about__text{
-  margin-bottom: 71px;
+  margin-bottom: 72px;
   line-height: 1.65em;
 }
 
@@ -386,18 +392,21 @@ background-color: #D3A557;
 
 .footer{
   position: relative;
-  height: 146px;
 }
 
+
+.home-footer{
+  height: 93px;
+}
 .home-footer__wrapper{
-  padding-top: 29px;
+  padding-top: 21px;
   border-top: 1px solid #3E3D42;
 }
 
 .social{
   position: absolute;
-  left: 703px;
-  top: 22px;
+  left: 701px;
+  top: 30px;
 }
 .social__item{
   display: inline-block;
@@ -413,10 +422,16 @@ background-color: #D3A557;
   line-height: 36px;
   text-align: center;
   color: #29282D;
+  overflow: hidden;
   font-size: 24px;
 }
 .social__link--facebook{
   font-size: 28px;
+}
+.social__link--facebook i{
+  position: relative;
+  top: 2px;
+  left: 3px;
 }
 .social__link:hover{
   background-color: #868686;
