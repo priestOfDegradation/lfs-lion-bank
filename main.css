@@ -391,16 +391,23 @@ background-color: #D3A557;
 /* ============================================================================================================ */
 
 .footer{
+  height: 133px;
+}
+.footer .container{
+  height: 100%;
+}
+
+.footer__wrapper{
   position: relative;
-}
-
-
-.home-footer{
-  height: 93px;
-}
-.home-footer__wrapper{
+  height: 100%;
+  box-sizing: content-box;
   padding-top: 21px;
+}
+.footer__wrapper--underline{
   border-top: 1px solid #3E3D42;
+}
+.footer__content{
+  position: relative;
 }
 
 .social{
