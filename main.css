@@ -204,7 +204,7 @@ background-color: #D3A557;
 /* ============================================================================================================ */
 
 .home-page-wrapper{
-  background: url('img/background/lion-header-1.png') center top no-repeat, url('img/background/bottom-pic-1.png') right -8px bottom 182px no-repeat;
+  background: url('img/background/lion-header-1.png') center top no-repeat, url('img/background/bottom-pic-1.png') right -8px bottom 224px no-repeat;
 }
 
 
@@ -399,7 +399,6 @@ background-color: #D3A557;
 .footer__wrapper{
   position: relative;
   height: 100%;
-  box-sizing: content-box;
   padding-top: 21px;
 }
 .footer__wrapper--underline{
