@@ -67,7 +67,7 @@ address{
 
 .btn--color--ginger{
   background-color: #DFB56D;
-  box-shadow: 0 0 25px 0 #DFB56D36;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
 }
 .btn--color--ginger:hover{
 background-color: #D3A557;
