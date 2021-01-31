@@ -256,7 +256,6 @@ background-color: #D3A557;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  z-index: 0;
 }
 .card--color--gray::before{
   background-color: #A7A7A7;
