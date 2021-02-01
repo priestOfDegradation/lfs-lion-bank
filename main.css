@@ -129,19 +129,25 @@ background-color: #D3A557;
   position: relative;
   height: 100px;
 }
+.header__wrapper{
+  padding-top: 26px;
+}
+.header__content{
+  position: relative;
+}
 
 
 .logo{
   display: block;
   position: absolute;
-  top: 33px;
+  top: 8px;
   left: 0;
 }
 
 
 .navbar{
   position: absolute;
-  top: 42px;
+  top: 16px;
   left: 256px;
   font-size: 14px;
 }
@@ -159,7 +165,7 @@ background-color: #D3A557;
 
 .info{
   position: absolute;
-  top: 26px;
+  top: 0;
   right: 0;
   text-align: right;
 }
@@ -172,8 +178,8 @@ background-color: #D3A557;
 }
 .info__schedule{
   font-size: 13px;
-  padding-right: 3px;
-  margin-top: -7px;
+  padding-right: 2px;
+  margin-top: -8px;
 }
 .info__schedule:hover .info__schedule-drop-down{
   display: inline-block;
@@ -399,7 +405,7 @@ background-color: #D3A557;
 .footer__wrapper{
   position: relative;
   height: 100%;
-  padding-top: 21px;
+  padding-top: 47px;
 }
 .footer__wrapper--underline{
   border-top: 1px solid #3E3D42;
@@ -410,8 +416,8 @@ background-color: #D3A557;
 
 .social{
   position: absolute;
-  left: 701px;
-  top: 30px;
+  left: 702px;
+  top: 3px;
 }
 .social__item{
   display: inline-block;
