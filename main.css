@@ -31,7 +31,9 @@ address{
   font-style: normal;
 }
 
-
+.wrapper{
+  min-width: 1141px;
+}
 .container{
   position: relative;
   width: 1141px;
@@ -82,6 +84,9 @@ background-color: #D3A557;
 
 .section{
   margin-bottom: 125px;
+}
+.section--news{
+  margin-bottom: 145px;
 }
 .section__title{
   margin-bottom: 51px;
@@ -362,7 +367,6 @@ background-color: #D3A557;
 
 
 .about{
-  margin-top: 145px;
   margin-bottom: 54px;
   min-height: 505px;
 }
