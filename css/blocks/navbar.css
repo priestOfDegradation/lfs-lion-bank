@@ -1,9 +1,12 @@
 .navbar{
   font-size: 14px;
 }
+.navbar__list{
+  display: flex;  
+}
 .navbar__item{
   display: inline;
-  margin-right: 51px;
+  margin-right: 55px;
 }
 .navbar__item:last-child{
   margin-right: 0;
