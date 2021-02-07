@@ -60,7 +60,7 @@
   overflow: hidden;
 }
 .card__info-cell{
-  flex: 1;
+  width: 160px;
 }
 .card__info-cell:first-child .card__caption{
   padding-right: 3px;

@@ -7,6 +7,10 @@
 .service:hover{
   background-color: #F5F5F5;
 }
+.service:hover .service__btn{
+  content: "Отправить";
+  background-color: #DFB56D;
+}
 
 .service__img-col{
   width: 517px;
