@@ -39,3 +39,9 @@
 .service__btn{
   margin-top: auto;
 }
+.service__btn::before{
+  content: "подробнее";
+}
+.service:hover .service__btn::before{
+  content: "отправить";
+}
