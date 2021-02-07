@@ -1,0 +1,33 @@
+.about{
+  display: flex;
+  margin-bottom: 54px;
+}
+.about__img{
+  display: block;
+}
+.about__block{
+  position: relative;
+  margin-top: -408px;
+  margin-left: 354px;
+  width: 785px;
+  background-color: #202123;
+  padding: 69px 81px;
+  padding-right: 161px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.about__content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about__title{
+  margin-bottom: 37px;
+}
+.about__text{
+  margin-bottom: 72px;
+  line-height: 1.65em;
+}

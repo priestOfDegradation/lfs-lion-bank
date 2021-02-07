@@ -1,0 +1,13 @@
+.navbar{
+  font-size: 14px;
+}
+.navbar__item{
+  display: inline;
+  margin-right: 51px;
+}
+.navbar__item:last-child{
+  margin-right: 0;
+}
+.navbar__item:hover, .navbar__item--active{
+  color: #D3A557;
+}

@@ -1,0 +1,20 @@
+.header{
+  position: relative;
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 27px;
+}
+.header__col{
+  display: flex;
+  align-items: center;
+}
+.header__col--right{
+  justify-content: flex-end;
+}
+
+
+.header__logo{
+  margin-right: 91px;
+}

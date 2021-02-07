@@ -1,0 +1,40 @@
+.contacts{
+  text-align: right;
+}
+.contacts__caption{
+  font-size: 11px;
+  color: #9A9A9A;
+}
+.contacts__phone{
+  font-size: 26px;
+}
+.contacts__schedule{
+  font-size: 13px;
+  padding-right: 2px;
+  margin-top: -8px;
+}
+.contacts__schedule:hover .info__schedule-drop-down{
+  display: inline-block;
+}
+.contacts__schedule-text{
+  display: inline;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.contacts__schedule-text:hover{
+  color: #D3A557;
+}
+.contacts__schedule-drop-down{
+  display: none;
+  position: absolute;
+  right: 0;
+  border-radius: 3px;
+  padding: 14px 18px;
+  background-color: #EDEDED;
+  opacity: 80%;
+  color: #1E1F20;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}

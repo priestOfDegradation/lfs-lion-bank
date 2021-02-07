@@ -1,0 +1,9 @@
+.top-line{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 412px;
+  background: url('../../img/background/lion-header-2.png') center top no-repeat;
+  padding-bottom: 23px;
+  background-color: #202123;
+}

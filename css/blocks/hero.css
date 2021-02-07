@@ -1,0 +1,23 @@
+.hero{
+  margin-bottom: 183px;
+}
+.hero__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 515px;
+}
+.hero__content{
+  width: 44%;
+}
+.hero__slogan{
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+.hero__postscript{
+  color: #D3A557;
+  margin-bottom: 40px;
+  font-size: 18px;
+}

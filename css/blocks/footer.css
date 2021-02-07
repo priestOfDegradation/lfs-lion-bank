@@ -1,0 +1,33 @@
+.footer{
+  background-color: #29282D;
+}
+
+.footer__wrapper{
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 0;
+}
+.footer__wrapper--underline{
+  border-top: 1px solid #3E3D42;
+}
+/* .footer--home-page .footer__wrapper{
+  padding-top: 48px;
+  padding-bottom: 52px;
+} */
+
+
+.footer__col{
+  display: flex;
+  align-items: center;
+}
+.footer__col--right{
+  justify-content: flex-end;
+}
+
+
+.footer__logo{
+  margin-right: 91px;
+}
+.footer__contacts{
+  margin-left: 72px;
+}

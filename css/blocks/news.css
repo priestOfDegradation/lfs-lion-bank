@@ -1,0 +1,11 @@
+.news{
+  display: flex;
+  justify-content: space-between;
+  min-height: 394px;
+}
+.news__item{
+  width: calc(100%/2 - 12.5px);
+}
+.news__item:last-child{
+  margin-right: 0;
+}

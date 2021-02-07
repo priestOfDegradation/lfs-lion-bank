@@ -1,0 +1,30 @@
+.new{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.new__img{
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .6;
+}
+.new__content{
+  position: relative;
+  min-height: 158px;
+  padding: 14px 30px;
+}
+.new__date{
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.new__title{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}

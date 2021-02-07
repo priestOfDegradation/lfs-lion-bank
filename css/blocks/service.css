@@ -1,0 +1,37 @@
+.service{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 40px 30px 22px ;
+}
+.service:hover{
+  background-color: #F5F5F5;
+}
+
+.service__img-col{
+  width: 517px;
+  padding-right: 58px;
+  display: flex;
+  align-items: flex-start;
+}
+.service__content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+}
+
+.service__title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.37;
+  padding-right: 11px;
+  margin-bottom: 48px;
+  color: #202020;
+}
+.service__text p{
+  line-height: 1.7em;
+}
+.service__btn{
+  margin-top: auto;
+}

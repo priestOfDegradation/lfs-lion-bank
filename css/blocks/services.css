@@ -1,0 +1,12 @@
+.services{
+  display: flex;
+  flex-direction: column;
+}
+.services__item{
+  min-height: 450px;
+  margin-bottom: 45px;
+  display: flex;
+}
+.services__item:last-child{
+  margin-bottom: 0;
+}

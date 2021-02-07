@@ -1,0 +1,11 @@
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards__item{
+  width: calc(100%/3 - 18px);
+}
+.cards__item:last-child{
+  margin-right: 0;
+}
