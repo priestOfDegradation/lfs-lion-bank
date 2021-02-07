@@ -20,3 +20,11 @@
   align-items: flex-start;
   min-width: 157px;
 }
+.partners__img{
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+}
+.partners__img:hover{
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
+}
