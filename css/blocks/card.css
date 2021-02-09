@@ -62,9 +62,6 @@
 .card__info-cell{
   width: 160px;
 }
-.card__info-cell:first-child .card__caption{
-  padding-right: 3px;
-}
 .card__value{
   font-size: 36px;
   margin-bottom: 4px;
@@ -72,6 +69,7 @@
 .card__caption{
   color: #666666;
   line-height: 1.3em;
+  width: 157px;
 }
 .card__btn-wrapper{
   display: flex;
