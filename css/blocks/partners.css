@@ -23,6 +23,11 @@
 .partners__img{
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
+  transition: filter 200ms;
+  -webkit-transition: filter 200ms;
+  -moz-transition: filter 200ms;
+  -ms-transition: filter 200ms;
+  -o-transition: filter 200ms;
 }
 .partners__img:hover{
   filter: grayscale(0);

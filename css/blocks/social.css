@@ -18,6 +18,11 @@
   color: #29282D;
   overflow: hidden;
   font-size: 24px;
+  transition: background 200ms;
+  -webkit-transition: background 200ms;
+  -moz-transition: background 200ms;
+  -ms-transition: background 200ms;
+  -o-transition: background 200ms;
 }
 .social__link--facebook{
   font-size: 29px;

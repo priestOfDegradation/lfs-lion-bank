@@ -32,6 +32,11 @@
   -o-border-radius: 50%;
   text-align: center;
   line-height: 32px;
+  transition: background 200ms, color 200ms;
+  -webkit-transition: background 200ms, color 200ms;
+  -moz-transition: background 200ms, color 200ms;
+  -ms-transition: background 200ms, color 200ms;
+  -o-transition: background 200ms, color 200ms;
 }
 .pagination__link:hover, .pagination__item--active .pagination__link{
   background-color: #353439;

@@ -1,5 +1,8 @@
 .contacts{
   text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .contacts__caption{
   font-size: 11px;
@@ -20,21 +23,65 @@
   display: inline;
   text-decoration: underline;
   cursor: pointer;
+  transition: color 100ms;
+  -webkit-transition: color 100ms;
+  -moz-transition: color 100ms;
+  -ms-transition: color 100ms;
+  -o-transition: color 100ms;
 }
-.contacts__schedule-text:hover{
+.contacts__schedule:hover .contacts__schedule-text{
   color: #D3A557;
 }
 .contacts__schedule-drop-down{
-  display: none;
+  z-index: 1;
   position: absolute;
-  right: 0;
-  border-radius: 3px;
-  padding: 14px 18px;
+  right: 9999px;
+  top: 100%;
+  padding: 12px 19px;
+  padding-bottom: 13px;
   background-color: #EDEDED;
-  opacity: 80%;
+  opacity: 0;
   color: #1E1F20;
+  border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  margin-top: 7px;
+  text-align: left;
+  transition: opacity 200ms;
+  -webkit-transition: opacity 200ms;
+  -moz-transition: opacity 200ms;
+  -ms-transition: opacity 200ms;
+  -o-transition: opacity 200ms;
+}
+.contacts__schedule-drop-down::after{
+  content: "";
+  display: block;
+  box-sizing: content-box;
+  position: absolute;
+  bottom: 100%;
+  right: 43px;
+
+  width: 0;
+  height: 0;
+  border: 12px solid transparent;
+  border-bottom: 9px solid #EDEDED;
+  border-top-width: 0;
+}
+.contacts__schedule-drop-down::before{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  height: 9px;
+  width: 100%;
+}
+.contacts__schedule-work{
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.contacts__schedule:hover .contacts__schedule-drop-down{
+  opacity: 80%;
+  right: 0;
 }

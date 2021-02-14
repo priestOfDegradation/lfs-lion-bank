@@ -1,0 +1,13 @@
+.tag{
+  font-size: 13px;
+  background-color: #E7E7E7;
+  padding: 10px 25px;
+  border-radius: 1000px;
+  -webkit-border-radius: 1000px;
+  -moz-border-radius: 1000px;
+  -ms-border-radius: 1000px;
+  -o-border-radius: 1000px;
+}
+.tag--bg--green{
+  background-color: #B9EAE4;
+}

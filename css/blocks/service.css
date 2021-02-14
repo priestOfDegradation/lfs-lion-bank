@@ -4,6 +4,11 @@
   justify-content: space-between;
   padding: 40px 30px 22px ;
   border-radius: 3px;
+  transition: background 100ms;
+  -webkit-transition: background 100ms;
+  -moz-transition: background 100ms;
+  -ms-transition: background 100ms;
+  -o-transition: background 100ms;
 }
 .service:hover{
   background-color: #F5F5F5;

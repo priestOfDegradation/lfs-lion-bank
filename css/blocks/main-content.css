@@ -1,9 +1,14 @@
 .main-content{
-  padding-top: 58px;
-  margin-bottom: 123px;
+  padding-top: 98px;
+  padding-bottom: 86px;
   color: #303030;
 }
 
 .main-content--services .main-content__services{
-  margin-bottom: 82px;
+  padding-top: 58px;
+  padding-bottom: 82px;
+}
+
+.main-content--reviews .main-content__reviews{
+  padding-bottom: 54px;
 }

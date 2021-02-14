@@ -65,6 +65,7 @@ table{
   border-spacing: 0;
 }
 img{
+  display: block;
   max-width: 100%;
 }
 p{
@@ -85,6 +86,11 @@ p{
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
+  transition: background 100ms;
+  -webkit-transition: background 100ms;
+  -moz-transition: background 100ms;
+  -ms-transition: background 100ms;
+  -o-transition: background 100ms;
 }
 .btn--color--black{
   background-color: #29282D;

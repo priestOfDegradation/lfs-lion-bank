@@ -7,6 +7,11 @@
 .navbar__item{
   display: inline;
   margin-right: 55px;
+  transition:  color 100ms;
+  -webkit-transition:  color 100ms;
+  -moz-transition:  color 100ms;
+  -ms-transition:  color 100ms;
+  -o-transition:  color 100ms;
 }
 .navbar__item:last-child{
   margin-right: 0;
