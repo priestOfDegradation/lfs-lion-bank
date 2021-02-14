@@ -4,7 +4,7 @@
   display: inline-flex;
   flex-direction: column;
   padding-top: 52px;
-  padding-bottom: 32px;
+  padding-bottom: 35px;
 }
 
 .review__user{
@@ -37,33 +37,24 @@
   align-items: flex-start;
   padding-top: 34px;
 }
-.review__user-personal{
-  display: flex;
+.review__user-name{
   margin-bottom: 7px;
   padding-left: 2px;
-}
-.review__user-name{
   font-size: 24px;
   color: #1A1B1E;
-  margin-right: 8px;
   font-weight: 700;
+  display: flex;
+  align-items: center;
 }
-.review__user-personal:hover .review__user-name{
-  color: #2E77A4;
-  text-decoration: underline;
-}
-.review__user-vk{
-  background-color: #2E77A4;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
+.review__user-name::after{
+  content: url('../../img/icons/vk-blue-1.png');
   width: 30px;
   height: 30px;
-  text-align: center;
-  line-height: 30px;
-  color: white;
+  margin-left: 8px;
+}
+.review__user-name:hover{
+  color: #2E77A4;
+  text-decoration: underline;
 }
 .review__tags{
   font-size: 13px;
