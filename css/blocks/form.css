@@ -33,7 +33,6 @@
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
-  outline: none;
 }
 .form__input--textarea{
   resize: none;

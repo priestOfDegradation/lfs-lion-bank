@@ -5,51 +5,52 @@
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
+    animation-timing-function: ease-out;
     opacity: 0;
   }
-  
   20%{
     opacity: 0;
   }
-  40%{
-    transform: translateY(-40px);
-    -webkit-transform: translateY(-40px);
-    -moz-transform: translateY(-40px);
-    -ms-transform: translateY(-40px);
-    -o-transform: translateY(-40px);
+  35%{
+    transform: translateY(-50px);
+    -webkit-transform: translateY(-50px);
+    -moz-transform: translateY(-50px);
+    -ms-transform: translateY(-50px);
+    -o-transform: translateY(-50px);
+    animation-timing-function: ease-in;
 }
   
-  60%{
+  70%{
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
+    animation-timing-function: ease-out;
     opacity: 1;
   }
 
-  75%{
+  85%{
     transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     -moz-transform: translateY(-20px);
     -ms-transform: translateY(-20px);
     -o-transform: translateY(-20px);
+    animation-timing-function: ease-in;
 }
-  90%{
+  to{
     transform: translateY(0);
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
     -ms-transform: translateY(0);
     -o-transform: translateY(0);
-}
-
-  to{
     opacity: 1;
-  }
+}
 }
 
 .welcome{
-  background: url('../../img/background/welcome-background.png') center top no-repeat, url('../../img/background/bottom-pic-1.png') right -8px bottom 224px no-repeat #29282D;
+  background: url('../../img/background/welcome-background.png') #29282D center center no-repeat;
+  background-size: 100% auto;
   position: relative;
   width: 100%;
   height: 100%;
@@ -58,8 +59,8 @@
   align-items: center;
 }
 .welcome__content{
-  animation: welcome 1.5s infinite;
-  -webkit-animation: bounce 1.5s infinite;
+  animation: bounce 1s 1 ease-in;
+  -webkit-animation: bounce 1s 1 ease-in;
 }
 .welcome__logo{
   margin-bottom: 59px;

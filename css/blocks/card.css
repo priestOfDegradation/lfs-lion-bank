@@ -31,7 +31,7 @@
   background-color: #988657;
 }
 .card__header{
-  padding: 40px 0;
+  padding: 39px 0;
   margin-bottom: 3px;
   display: flex;
   justify-content: center;
@@ -51,12 +51,12 @@
 .card__title{
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 .card__info{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 49px;
+  margin-bottom: 50px;
   overflow: hidden;
 }
 .card__info-cell{

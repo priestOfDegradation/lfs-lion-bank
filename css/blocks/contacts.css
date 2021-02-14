@@ -14,7 +14,7 @@
 .contacts__schedule{
   font-size: 13px;
   padding-right: 2px;
-  margin-top: -8px;
+  margin-top: -7px;
 }
 .contacts__schedule:hover .info__schedule-drop-down{
   display: inline-block;
@@ -38,7 +38,7 @@
   right: 9999px;
   top: 100%;
   padding: 12px 19px;
-  padding-bottom: 13px;
+  padding-bottom: 16px;
   background-color: #EDEDED;
   opacity: 0;
   color: #1E1F20;
@@ -61,11 +61,11 @@
   box-sizing: content-box;
   position: absolute;
   bottom: 100%;
-  right: 43px;
+  right: 42px;
 
   width: 0;
   height: 0;
-  border: 12px solid transparent;
+  border: 11px solid transparent;
   border-bottom: 9px solid #EDEDED;
   border-top-width: 0;
 }

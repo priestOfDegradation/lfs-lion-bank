@@ -1,6 +1,6 @@
 .about{
   display: flex;
-  margin-bottom: 54px;
+  margin-bottom: 55px;
 }
 .about__img{
   display: block;
@@ -11,8 +11,8 @@
   margin-left: 354px;
   width: 785px;
   background-color: #202123;
-  padding: 69px 81px;
-  padding-right: 161px;
+  padding: 69px 80px;
+  padding-right: 162px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -28,6 +28,6 @@
   margin-bottom: 37px;
 }
 .about__text{
-  margin-bottom: 72px;
-  line-height: 1.65em;
+  margin-bottom: 70px;
+  line-height: 1.7em;
 }
