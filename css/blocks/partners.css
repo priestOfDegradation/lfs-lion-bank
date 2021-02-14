@@ -14,7 +14,7 @@
 .partners__item:nth-child(4n){
   margin-right: 0;
 }
-.partners__item{
+.partners__item:last-child{
   margin-right: 0;
 }
 .partners__link{

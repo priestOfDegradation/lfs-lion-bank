@@ -11,6 +11,36 @@
   display: block;
   width: 36px;
   height: 36px;
+}
+.social__link--instagramm{
+  background: url('../../img/css_sprites.png') -10px -10px;
+}
+.social__link--instagramm:hover{
+  background: url('../../img/css_sprites.png') -66px -10px;
+}
+.social__link--vk{
+  background: url('../../img/css_sprites.png') -122px -10px;
+}
+.social__link--vk:hover{
+  background: url('../../img/css_sprites.png') -122px -66px;
+}
+.social__link--telegramm{
+  background: url('../../img/css_sprites.png') -10px -66px;
+}
+.social__link--telegramm:hover{
+  background: url('../../img/css_sprites.png') -66px -66px;
+}
+.social__link--facebook{
+  background: url('../../img/css_sprites.png') -10px -122px;
+}
+.social__link--facebook:hover{
+  background: url('../../img/css_sprites.png') -66px -122px;
+}
+
+/* .social__link{
+  display: block;
+  width: 36px;
+  height: 36px;
   background-color: #454545;
   border-radius: 50%;
   line-height: 36px;
@@ -34,4 +64,4 @@
 }
 .social__link:hover{
   background-color: #868686;
-}
+} */
