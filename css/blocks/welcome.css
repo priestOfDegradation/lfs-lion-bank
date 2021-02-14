@@ -49,8 +49,7 @@
 }
 
 .welcome{
-  background: url('../../img/background/welcome-background.png') #29282D center center no-repeat;
-  background-size: 100% auto;
+  background: url('../../img/background/welcome-background.png') #29282D center center / cover no-repeat;
   position: relative;
   width: 100%;
   height: 100%;

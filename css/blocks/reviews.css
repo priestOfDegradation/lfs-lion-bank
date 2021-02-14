@@ -6,3 +6,6 @@
 .reviews__item{
   margin-bottom: 17px;
 }
+.reviews__item:last-child{
+  margin-bottom: 0;
+}

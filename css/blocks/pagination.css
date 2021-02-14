@@ -21,6 +21,9 @@
   font-weight: bold;
   margin-right: 2px;
 }
+.pagination__item{
+  margin-right: 0;
+}
 .pagination__link{
   display: block;
   width: 32px;

@@ -6,6 +6,3 @@
 .news__item{
   width: calc(100%/2 - 12.5px);
 }
-.news__item:last-child{
-  margin-right: 0;
-}
