@@ -49,7 +49,10 @@
 }
 
 .welcome{
-  background: url('../../img/background/welcome-background.png') #29282D center center / cover no-repeat;
+  background: 
+  url('../../img/background/flare.png') 60% 45% / auto 77% no-repeat,
+    url('../../img/background/welcome-background.png') center center / cover no-repeat;
+  background-color: #29282D;
   position: relative;
   width: 100%;
   height: 100%;

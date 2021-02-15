@@ -24,7 +24,9 @@ body{
   flex: 1;
 }
 .home-page-wrapper{
-  background: url('../../img/background/lion-header-1.png') center top no-repeat, url('../../img/background/bottom-pic-1.png') right -8px bottom 224px no-repeat #29282D;
+  background: 
+    url('../../img/background/lion-header-1.png') center top no-repeat, 
+    url('../../img/background/bottom-pic-1.png') right -8px bottom 224px no-repeat #29282D;
 }
 .container{
   position: relative;
